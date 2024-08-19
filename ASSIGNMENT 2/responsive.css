@@ -1,0 +1,68 @@
+p {
+    font-size: 15px !important;
+}
+
+
+/* mobile view */
+@media (max-width: 768px) {
+    /* MOBILE & TABLET NAVIGATION */
+  .navbar {
+    bottom: 0;
+    width: 96% !important;
+    margin: 0 auto !important;
+    height: fit-content !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    backdrop-filter: blur(10px);
+    background-color: rgba(104, 104, 104, 0.327);
+  }
+  .navbar ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+    .homeitms {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .heroimg img {
+        width: 100%;
+    }
+    #home, #about, #skills, #contact {
+        padding: 10px 20px;
+        margin: 0 !important;
+        height: fit-content !important;
+    }
+    .about-me {
+        font-size: 30px;
+    }
+    .about-items {
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+    .skills {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .skills-item {
+        width: 80px;
+    }
+    .footer {
+        display: none;
+    }
+    table {
+        display: none;
+    }
+}
+
+/* Tablet view */
+/* @media (max-width: 800px) {
+    #home {
+        margin: 0 80px;
+    }
+} */
+
+/* Media query for desktop views only */
+@media (min-width: 1000px) {
+}
